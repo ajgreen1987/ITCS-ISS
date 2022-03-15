@@ -48,6 +48,7 @@
 		BA60652C27E0280F00EEA26A /* ISSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA60653927E0286800EEA26A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BA60653C27E0289300EEA26A /* AstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
+		BA60653E27E02CBF00EEA26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		BA60650E27E0280C00EEA26A /* ISS */ = {
 			isa = PBXGroup;
 			children = (
+				BA60653E27E02CBF00EEA26A /* Info.plist */,
 				BA60653927E0286800EEA26A /* MapView.swift */,
 				BA60653C27E0289300EEA26A /* AstronautListView.swift */,
 				BA60651127E0280C00EEA26A /* ISSTabView.swift */,
@@ -429,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ISS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ISS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ISS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ISS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
