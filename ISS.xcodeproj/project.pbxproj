@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BA60651027E0280C00EEA26A /* ISSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60650F27E0280C00EEA26A /* ISSApp.swift */; };
-		BA60651227E0280C00EEA26A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60651127E0280C00EEA26A /* ContentView.swift */; };
+		BA60651227E0280C00EEA26A /* ISSTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60651127E0280C00EEA26A /* ISSTabView.swift */; };
 		BA60651427E0280F00EEA26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA60651327E0280F00EEA26A /* Assets.xcassets */; };
 		BA60651727E0280F00EEA26A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA60651627E0280F00EEA26A /* Preview Assets.xcassets */; };
 		BA60652127E0280F00EEA26A /* ISSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60652027E0280F00EEA26A /* ISSTests.swift */; };
 		BA60652B27E0280F00EEA26A /* ISSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60652A27E0280F00EEA26A /* ISSUITests.swift */; };
 		BA60652D27E0280F00EEA26A /* ISSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60652C27E0280F00EEA26A /* ISSUITestsLaunchTests.swift */; };
+		BA60653A27E0286800EEA26A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60653927E0286800EEA26A /* MapView.swift */; };
+		BA60653D27E0289300EEA26A /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60653C27E0289300EEA26A /* AstronautListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		BA60650C27E0280C00EEA26A /* ISS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA60650F27E0280C00EEA26A /* ISSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSApp.swift; sourceTree = "<group>"; };
-		BA60651127E0280C00EEA26A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA60651127E0280C00EEA26A /* ISSTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSTabView.swift; sourceTree = "<group>"; };
 		BA60651327E0280F00EEA26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA60651627E0280F00EEA26A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA60651C27E0280F00EEA26A /* ISSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		BA60652627E0280F00EEA26A /* ISSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA60652A27E0280F00EEA26A /* ISSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSUITests.swift; sourceTree = "<group>"; };
 		BA60652C27E0280F00EEA26A /* ISSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA60653927E0286800EEA26A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BA60653C27E0289300EEA26A /* AstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		BA60650E27E0280C00EEA26A /* ISS */ = {
 			isa = PBXGroup;
 			children = (
+				BA60653927E0286800EEA26A /* MapView.swift */,
+				BA60653C27E0289300EEA26A /* AstronautListView.swift */,
+				BA60651127E0280C00EEA26A /* ISSTabView.swift */,
 				BA60650F27E0280C00EEA26A /* ISSApp.swift */,
-				BA60651127E0280C00EEA26A /* ContentView.swift */,
 				BA60651327E0280F00EEA26A /* Assets.xcassets */,
 				BA60651527E0280F00EEA26A /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA60651227E0280C00EEA26A /* ContentView.swift in Sources */,
+				BA60651227E0280C00EEA26A /* ISSTabView.swift in Sources */,
+				BA60653A27E0286800EEA26A /* MapView.swift in Sources */,
+				BA60653D27E0289300EEA26A /* AstronautListView.swift in Sources */,
 				BA60651027E0280C00EEA26A /* ISSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct ISSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ISSTabView()
         }
     }
 }
